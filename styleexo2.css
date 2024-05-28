@@ -1,0 +1,46 @@
+#wrapper{ 
+    background-color: yellow;  
+}
+header h1, nav, aside{
+    background-color: blue;
+}
+header{
+    text-align: center;
+    color: white;
+    justify-items:center;
+}
+
+main{
+    background-color: white;
+}
+
+nav{
+    color: white;
+    float: left;
+}
+a{
+    color: white;
+    text-align: center;
+}
+article{
+    width: 800px;
+    overflow: hidden;
+}
+aside{
+    float: right;
+    width : 200px;
+    height : 450px;
+    color: white;
+    
+}
+#photo{
+    width : 150px;
+    height : 150px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(22, 22, 184);
+}
+
