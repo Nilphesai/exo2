@@ -31,12 +31,12 @@ main{
 
 nav{
     
-    color: blue;
     padding-bottom: 1%;
     margin: 5% 1% 0 1%;
     
 }
 li{
+    list-style-type: none;
     padding:5%;
 }
 a{
@@ -68,3 +68,22 @@ footer{
     background-color: rgb(22, 22, 184);
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    main {
+        flex-direction: column;
+    }
+    nav{
+        text-align: center;
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        padding:0;
+    }
+  }
